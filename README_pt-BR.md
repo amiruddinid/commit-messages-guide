@@ -1,25 +1,19 @@
-# Commit messages guide
+# Guia de mensagens de commit
 
 [![Diga obrigado!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/RomuloOliveira)
 
 Um guia para entender a importância das mensagens de commit e como escrevê-las bem.
 
-Pode te ajudar a aprender o que é um commit, saber porque é importante escrever boas mensages, boas práticas e dicas sobre como planejar e (re)escrever o seu histórico de commmits.
+Pode te ajudar a aprender o que é um _commit_, entender porque é importante escrever boas mensagens usando boas práticas e conhecer dicas para planejar e (re)escrever o seu histórico de _commits_.
 
 **Observações:** Apesar da versão em português ter sido escrita antes da versão em inglês, a versão inglês contém alguns textos que estão mais detalhados, assim como melhor referenciamento de fontes.
 
-## Linguagens disponíveis
+## O que é um "_commit_"?
 
-- [English](README.md)
-- [Português](README_pt-BR.md)
-- [Deutsch](README_de-DE.md)
+Em termos simples, o **_commit_** é uma espécie de _snapshot_ dos seus arquivos locais gravado localmente no seu repositório. Ao contrário do que se pensa, o git *não* armazena apenas as diferenças e sim a cópia completa dos arquivos.
+No caso de arquivos que não mudaram de um _commit_ para o outro, é gravada uma referência ao arquivo gerado no último snapshot.
 
-## O que é um _commit_?
-
-O **_commit_** é uma espécie de _snapshot_ dos seus arquivos locais gravado localmente no seu repositório.
-Ao contrário do que se pensa, o git _não_ armazena apenas as diferenças e sim a cópia completa dos arquivos.
-No caso de arquivos que não mudaram de um _commit_ para o outro, é gravada uma referência ao arquivo gerado no último
-snapshot.
+A imagem abaixo mostra como o git armazena dados ao longo do tempo com uma versão para cada _commit_:
 
 ![](https://i.stack.imgur.com/AQ5TG.png)
 
@@ -27,8 +21,8 @@ snapshot.
 
 - Facilita e agiliza o _code review_
 - Ajuda no entendimento do que está acontecendo
-- Explica os porquês ocultos que não podem ser explicados somente no código
-- Facilita o troubleshooting, debug e entendimento do que foi feito
+- Explica os porquês ocultos que não podem ser explicados somente em código
+- Facilita a solução de problemas e a depuração garantindo que futuros codificadores entendam por que e como as mudanças foram feitas
 
 ## Boas práticas
 
@@ -399,7 +393,8 @@ Stage this hunk [y,n,q,a,d,/,K,j,J,g,e,?]?
 
 ## Links interessantes
 
-https://whatthecommit.com/
+- https://whatthecommit.com/
+- https://gitmoji.carloscuesta.me/
 
 ## Gostou?
 
@@ -409,7 +404,7 @@ https://whatthecommit.com/
 
 Todo tipo de ajuda é bem-vinda. Exemplos de tópicos em que você pode contribuir:
 
-- Correcões gramáticas e ortográficas
+- Correcões gramaticais e ortográficas
 - Tradução para novas línguas
 - Melhoras nas referências e fontes
 
